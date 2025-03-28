@@ -1,0 +1,100 @@
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/* Input Field Focus Effect */
+input:focus,
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Dark Mode Textbox */
+.dashboard-page.dark-mode input,
+.dashboard-page.dark-mode textarea {
+    background-color: #1e1e1e;
+    color: white;
+    border-color: #444;
+}
+
+/* Dark Mode Focus */
+.dashboard-page.dark-mode input:focus,
+.dashboard-page.dark-mode textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+
+
+/* Button Hover Effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Primary Button */
+button.primary {
+    background: #007bff;
+    color: white;
+}
+
+button.primary:hover {
+    background: #0056b3;
+}
+
+/* Logout Button */
+button.logout-btn {
+    background: red;
+    color: white;
+}
+
+button.logout-btn:hover {
+    background: darkred;
+}
+
+/* Textarea */
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* Center the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
